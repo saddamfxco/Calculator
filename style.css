@@ -346,7 +346,8 @@ th {
     border-radius: 8px;
     margin-top: 1.5em;
     border: 1px dashed var(--accent);
-    max-width: 200%;            /* বক্স ছোট করা */
+    width: 150%;            /* বক্স ছোট করা */
+    max-width: 70%;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
