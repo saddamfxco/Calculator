@@ -335,41 +335,48 @@ th {
 .x { background-color: #1DA1F2; }
 .onlyfans { background-color: #00BFFF; }
 
+
+
+
+
 /* Broker Button Style */
 .broker-section {
     background: #e8f4fd;
-    padding: 0.2em;
+    padding: 0.4em;            /* ভিতরের খালি জায়গা সামান্য বাড়ানো */
     border-radius: 8px;
     margin-top: 1.5em;
     border: 1px dashed var(--accent);
-    max-width: 50%; 
+    max-width: 30%;            /* বক্স ছোট করা */
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    text-align: center; /* Broker section text সেন্টার */
+    text-align: center;        /* Broker section text সেন্টার */
 }
 
 .broker-section p {
-    margin: 0 0 0.8em;
-    font-size: 0.95em;
+    margin: 0 0 0.6em;         /* প্যারাগ্রাফের নিচের স্পেস কমানো */
+    font-size: 0.9em;          /* ফন্ট সামান্য ছোট করা */
     font-weight: bold;
     color: var(--primary);
-    text-align: center; /* প্যারাগ্রাফ সেন্টার */
+    text-align: center;        /* প্যারাগ্রাফ সেন্টার */
 }
 
 .btn-broker {
-    display: inline-block; /* block থেকে inline-block */
-    margin: 0 auto; /* সেন্টার করার জন্য */
+    display: inline-block;     /* block থেকে inline-block */
+    margin: 0 auto;            /* সেন্টার করার জন্য */
     background: linear-gradient(45deg, #2ecc71, #27ae60);
     color: white;
     text-decoration: none;
-    padding: 0.9em;
+    padding: 0.6em 1em;        /* বাটন ছোট করা */
     border-radius: 6px;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 0.9em;          /* ফন্ট সামান্য ছোট */
     animation: pulse 2s infinite;
 }
+
+
+
 
 .risk-disclaimer {
     font-size: 0.8em;
