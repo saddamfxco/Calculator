@@ -270,34 +270,25 @@ th {
 
 
 
-
-/* --- Footer & Social Media Styles --- */
-
+<!-- --- Footer & Social Media Styles --- -->
+<style>
 .app-footer {
     text-align: center;
     margin: 30px auto;
     padding-bottom: 20px;
-
-    /* 🔥 সাইজ কন্ট্রোল */
     font-size: 10px;
-
     width: 80%;
-    box-sizing: border-box;
-}
-
-    
-    
     box-sizing: border-box;
 }
 
 .divider {
     height: 1px;
     background: #e0e0e0;
-    margin: 1.5em 0; /* em ইউনিট ব্যবহারের ফলে সাইজ অটো এডজাস্ট হবে */
+    margin: 1.5em 0;
 }
 
 .app-footer h3 {
-    font-size: 1.3em; /* প্যারেন্ট ফন্টের তুলনায় ১.৩ গুণ বড় */
+    font-size: 1.3em;
     color: var(--primary);
     margin-bottom: 1em;
 }
@@ -313,7 +304,7 @@ th {
 .social-btn {
     text-decoration: none;
     color: white;
-    padding: 0.7em 1.2em; /* সাইজ অটোমেটিক এডজাস্ট হবে */
+    padding: 0.7em 1.2em;
     border-radius: 50px;
     font-size: 1em;
     font-weight: 600;
@@ -330,6 +321,19 @@ th {
 .whatsapp { background-color: #25D366; }
 .email { background-color: #EA4335; }
 .telegram { background-color: #0088cc; }
+.pinterest { background-color: #E60023; }
+.quora { background-color: #A82400; }
+.facebook { background-color: #3b5998; }
+.blogger { background-color: #f57d00; }
+.youtube { background-color: #FF0000; }
+.tiktok { background-color: #010101; }
+.github { background-color: #333; }
+.linkedin { background-color: #0077b5; }
+
+/* Placeholder buttons */
+.instagram { background-color: #C13584; } /* Instagram */
+.x { background-color: #1DA1F2; }         /* Twitter/X */
+.onlyfans { background-color: #00BFFF; }   /* OnlyFans */
 
 /* Broker Button Style */
 .broker-section {
@@ -338,19 +342,10 @@ th {
     border-radius: 8px;
     margin-top: 1.5em;
     border: 1px dashed var(--accent);
-    
-    /* বক্সটি যেন ক্যালকুলেটরের বাইরে চলে না যায় */
     max-width: 50%; 
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-}
-
-
-
-
-
-    
 }
 
 .broker-section p {
@@ -374,20 +369,18 @@ th {
 }
 
 .risk-disclaimer {
-    font-size: 0.8em; /* মূল ফন্টের চেয়ে ছোট */
+    font-size: 0.8em;
     color: #95a5a6;
     margin-top: 1.5em;
     line-height: 1.4;
 }
 
-/* Broker Button Animation */
 @keyframes pulse {
     0% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.4); }
     70% { box-shadow: 0 0 0 10px rgba(46, 204, 113, 0); }
     100% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0); }
 }
-
-
+</style>
 
 
 
