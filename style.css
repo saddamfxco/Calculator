@@ -328,7 +328,7 @@ th {
 /* Broker Button Style */
 .broker-section {
     background: #e8f4fd;
-    padding: 1.2em;
+    padding: 0.2em;
     border-radius: 8px;
     margin-top: 1.5em;
     border: 1px dashed var(--accent);
